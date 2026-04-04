@@ -7,12 +7,11 @@
 ## Abstract
 
     This short course covers techniques for solving economic models more
-    efficiently using better algorithms and modern computational tools. It
-    starts with high-performance Python libraries like JAX and Numba, then
-    moving on to parallel computing techniques. We will also cover advanced
-    elements of dynamic programming theory, including decision-making under
-    uncertainty and risk aversion, as well as Q-learning and reinforcement
-    learning.
+    efficiently using modern algorithms and computational tools. It starts with
+    high-performance Python libraries like JAX and Numba, then moving on to
+    parallel computing techniques. We will also cover advanced elements of
+    dynamic programming theory, including decision-making under uncertainty and
+    risk aversion, as well as Q-learning and reinforcement learning.
 
 ## Times and Dates
 
