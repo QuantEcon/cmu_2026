@@ -1,17 +1,8 @@
-<table>
-<tr>
-<td>
+<img src="qe-logo-large.png" width="120" align="right">
 
 # CMU Short Course 2026
 
 ## Advanced Computational Methods
-
-</td>
-<td>
-<img src="qe-logo-large.png" width="120">
-</td>
-</tr>
-</table>
 
 ## Abstract
 
