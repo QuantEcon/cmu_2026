@@ -33,16 +33,20 @@
     * [JAX](https://python-programming.quantecon.org/jax_intro.html)
     * [NumPy vs Numba vs JAX](https://python-programming.quantecon.org/numpy_vs_numba_vs_jax.html)
 2. Models of Segregation (Adventures in Parellelization)
-    * TBA
+    * [Schelling's Model of Racial Segregation](https://jax.quantecon.org/schelling.html)
+    * [Schelling Model with NumPy](https://jax.quantecon.org/schelling_numpy.html)
+    * [Schelling Model with JAX](https://jax.quantecon.org/schelling_jax.html)
+    * [Parallelizing the Algorithm](https://jax.quantecon.org/schelling_jax_parallel.html)
+    * [Segregation with Persistent Shocks](https://jax.quantecon.org/schelling_shocks.html)
 3. ANNs
     * [Introduction to Deep Learning](thursday/morning/dl_slides/anns.pdf)
     * [Simple Neural Network Regression with Keras and JAX](https://jax.quantecon.org/keras.html)
     * [Neural Network Regression with JAX](https://jax.quantecon.org/jax_nn.html)
     * [Policy Gradient-Based Optimal Savings](https://jax.quantecon.org/ifp_dl.html)
-4. DP Lecture 1
-    * TBA (based on dp.quantecon.org)
-5. DP Lecture 2
-    * TBA (based on dp.quantecon.org)
+4. Dynamic Programming Lecture 1
+    * Introduction to the books [DP1 and DP2](https://dp.quantecon.org)
+5. Dynamic Programming Lecture 2
+    * Overview of the theory in [DP1 and DP2](https://dp.quantecon.org)
 
 ## Prerequisites
 
