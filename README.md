@@ -1,8 +1,17 @@
+<table>
+<tr>
+<td>
+
 # CMU Short Course 2026
 
-## Advanced Computational Methods 
+## Advanced Computational Methods
 
-![](qe-logo-large.png)
+</td>
+<td>
+<img src="qe-logo-large.png" width="120">
+</td>
+</tr>
+</table>
 
 ## Abstract
 
@@ -24,7 +33,7 @@ risk aversion, as well as Q-learning and reinforcement learning.
   [John Stachurski](https://johnstachurski.net/) is a economist based at
   [GRIPS](https://www.grips.ac.jp/en/) who works on algorithms at the
   intersection of optimization, Markov dynamics, economics, and finance.  In
-  2016 he co-founded QuantEcon with Thomas J. Sargent.
+  2016 he co-founded [QuantEcon](https://quantecon.org) with Thomas J. Sargent.
 
 ## Syllabus
 
