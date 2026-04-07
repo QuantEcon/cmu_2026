@@ -1,0 +1,16 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{loss\PYGZus{}fn}\PYG{p}{(}\PYG{n}{θ}\PYG{p}{,} \PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{):}
+    \PYG{k}{pass}  \PYG{c+c1}{\PYGZsh{} Details omitted}
+
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{sgd\PYGZus{}rule}\PYG{p}{(}\PYG{n}{p}\PYG{p}{,} \PYG{n}{g}\PYG{p}{,} \PYG{n}{λ}\PYG{o}{=}\PYG{l+m+mf}{0.01}\PYG{p}{):}
+    \PYG{k}{return} \PYG{n}{p} \PYG{o}{\PYGZhy{}} \PYG{n}{λ} \PYG{o}{*} \PYG{n}{g}  \PYG{c+c1}{\PYGZsh{} Update rule for vectors}
+
+\PYG{c+c1}{\PYGZsh{} Differentiate the loss function with respect to θ}
+\PYG{n}{loss\PYGZus{}grad} \PYG{o}{=} \PYG{n}{jit}\PYG{p}{(}\PYG{n}{grad}\PYG{p}{(}\PYG{n}{loss\PYGZus{}fn}\PYG{p}{))}
+
+\PYG{c+c1}{\PYGZsh{} Calculate pytree of gradients at θ}
+\PYG{n}{grads} \PYG{o}{=} \PYG{n}{loss\PYGZus{}grad}\PYG{p}{(}\PYG{n}{θ}\PYG{p}{,} \PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Update all parameters at once}
+\PYG{n}{new\PYGZus{}θ} \PYG{o}{=} \PYG{n}{jax}\PYG{o}{.}\PYG{n}{tree}\PYG{o}{.}\PYG{n}{map}\PYG{p}{(}\PYG{n}{sgd\PYGZus{}rule}\PYG{p}{,} \PYG{n}{θ}\PYG{p}{,} \PYG{n}{grads}\PYG{p}{)}
+\end{MintedVerbatim}

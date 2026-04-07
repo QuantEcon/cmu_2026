@@ -1,0 +1,16 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{f}\PYG{p}{(}\PYG{n}{θ}\PYG{p}{,} \PYG{n}{x}\PYG{p}{,} \PYG{n}{σ}\PYG{o}{=}\PYG{n}{jnp}\PYG{o}{.}\PYG{n}{tanh}\PYG{p}{):}
+    \PYG{k}{for} \PYG{n}{W}\PYG{p}{,} \PYG{n}{b} \PYG{o+ow}{in} \PYG{n}{θ}\PYG{p}{:}
+        \PYG{n}{x} \PYG{o}{=} \PYG{n}{σ}\PYG{p}{(}\PYG{n}{x} \PYG{o}{@} \PYG{n}{W} \PYG{o}{+} \PYG{n}{b}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n}{x}
+
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{loss}\PYG{p}{(}\PYG{n}{θ}\PYG{p}{,} \PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{):}
+  \PYG{k}{return} \PYG{n}{jnp}\PYG{o}{.}\PYG{n}{sum}\PYG{p}{((}\PYG{n}{y} \PYG{o}{\PYGZhy{}} \PYG{n}{f}\PYG{p}{(}\PYG{n}{θ}\PYG{p}{,} \PYG{n}{x}\PYG{p}{))}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{)}
+
+\PYG{n}{loss\PYGZus{}gradient} \PYG{o}{=} \PYG{n}{jit}\PYG{p}{(}\PYG{n}{grad}\PYG{p}{(}\PYG{n}{loss}\PYG{p}{))}
+
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{train}\PYG{p}{(}\PYG{n}{θ}\PYG{p}{,} \PYG{n}{x\PYGZus{}data}\PYG{p}{,} \PYG{n}{y\PYGZus{}data}\PYG{p}{,} \PYG{n}{λ}\PYG{o}{=}\PYG{l+m+mf}{0.01}\PYG{p}{,} \PYG{n}{m}\PYG{o}{=}\PYG{l+m+mi}{1\PYGZus{}000}\PYG{p}{):}
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{m}\PYG{p}{):}
+        \PYG{n}{θ} \PYG{o}{=} \PYG{n}{θ} \PYG{o}{\PYGZhy{}} \PYG{n}{λ} \PYG{o}{*} \PYG{n}{loss\PYGZus{}gradient}\PYG{p}{(}\PYG{n}{θ}\PYG{p}{,} \PYG{n}{x\PYGZus{}data}\PYG{p}{,} \PYG{n}{y\PYGZus{}data}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n}{θ}
+\end{MintedVerbatim}

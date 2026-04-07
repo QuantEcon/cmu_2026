@@ -1,0 +1,18 @@
+
+    \begin{minted}{python}
+def loss_fn(θ, x, y):
+    pass  # Details omitted
+
+def sgd_rule(p, g, λ=0.01):
+    return p - λ * g  # Update rule for vectors
+
+# Differentiate the loss function with respect to θ
+loss_grad = jit(grad(loss_fn))
+
+# Calculate pytree of gradients at θ
+grads = loss_grad(θ, x, y)
+
+# Update all parameters at once
+new_θ = jax.tree.map(sgd_rule, θ, grads)
+    \end{minted}
+

@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{ANNs}{3}{0}{1}
+\beamer@sectionintoc {2}{Training ANNs}{17}{0}{2}
+\beamer@sectionintoc {3}{Why do they work?}{23}{0}{3}
+\beamer@sectionintoc {4}{DL with JAX}{34}{0}{4}
