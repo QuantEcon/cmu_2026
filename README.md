@@ -39,7 +39,7 @@ risk aversion, as well as Q-learning and reinforcement learning.
     * [Parallelizing the Algorithm](https://jax.quantecon.org/schelling_jax_parallel.html)
     * [Segregation with Persistent Shocks](https://jax.quantecon.org/schelling_shocks.html)
 3. ANNs
-    * [Introduction to Deep Learning](thursday/morning/dl_slides/anns.pdf)
+    * [Introduction to Deep Learning](dl_slides/anns.pdf)
     * [Simple Neural Network Regression with Keras and JAX](https://jax.quantecon.org/keras.html)
     * [Neural Network Regression with JAX](https://jax.quantecon.org/jax_nn.html)
     * [Policy Gradient-Based Optimal Savings](https://jax.quantecon.org/ifp_dl.html)
