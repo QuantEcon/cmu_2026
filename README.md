@@ -30,6 +30,7 @@ risk aversion, as well as Q-learning and reinforcement learning.
 
 1. Monday: Foundations
     * [Python for Scientific Computing](https://python-programming.quantecon.org/need_for_speed.html)
+    * [Numba](https://python-programming.quantecon.org/numba.html)
     * [JAX](https://python-programming.quantecon.org/jax_intro.html)
     * [NumPy vs Numba vs JAX](https://python-programming.quantecon.org/numpy_vs_numba_vs_jax.html)
 2. Models of Segregation (Adventures in Parellelization)
