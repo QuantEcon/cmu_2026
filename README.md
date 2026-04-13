@@ -15,12 +15,12 @@ risk aversion, as well as Q-learning and reinforcement learning.
 
 ## Times and Dates
 
-April 2026
+April 13th--17th 2026 
 
-  * Monday 13th: 6pm-8pm
-  * Tuesday 14th: 6pm-8pm
-  * Wed 15th: 6pm-8pm
-  * Friday 17th: 8am-10:30am
+* Monday–Wednesday: 6:00–8:00 PM, Room 5219
+* Friday: 8:30–10:00 AM, Room 5219
+
+All classes in Room 5219.
 
 ## Instructor
 
