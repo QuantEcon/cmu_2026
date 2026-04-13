@@ -15,9 +15,12 @@ risk aversion, as well as Q-learning and reinforcement learning.
 
 ## Times and Dates
 
-  * Dates: April 13th--17th, 2026
-  * Times: TBA
-  * Location: TBA
+April 2026
+
+  * Monday 13th: 6pm-8pm
+  * Tuesday 14th: 6pm-8pm
+  * Wed 15th: 6pm-8pm
+  * Friday 17th: 8am-10:30am
 
 ## Instructor
 
@@ -33,21 +36,19 @@ risk aversion, as well as Q-learning and reinforcement learning.
     * [Numba](https://python-programming.quantecon.org/numba.html)
     * [JAX](https://python-programming.quantecon.org/jax_intro.html)
     * [NumPy vs Numba vs JAX](https://python-programming.quantecon.org/numpy_vs_numba_vs_jax.html)
-2. Models of Segregation (Adventures in Parellelization)
+2. Tuesday: Models of Segregation (Adventures in Parellelization)
     * [Schelling's Model of Racial Segregation](https://jax.quantecon.org/schelling.html)
     * [Schelling Model with NumPy](https://jax.quantecon.org/schelling_numpy.html)
     * [Schelling Model with JAX](https://jax.quantecon.org/schelling_jax.html)
     * [Parallelizing the Algorithm](https://jax.quantecon.org/schelling_jax_parallel.html)
     * [Segregation with Persistent Shocks](https://jax.quantecon.org/schelling_shocks.html)
-3. ANNs
+3. Wednesday: ANNs
     * [Introduction to Deep Learning](dl_slides/anns.pdf)
     * [Simple Neural Network Regression with Keras and JAX](https://jax.quantecon.org/keras.html)
     * [Neural Network Regression with JAX](https://jax.quantecon.org/jax_nn.html)
     * [Policy Gradient-Based Optimal Savings](https://jax.quantecon.org/ifp_dl.html)
-4. Dynamic Programming Lecture 1
-    * Introduction to the books [DP1 and DP2](https://dp.quantecon.org)
-5. Dynamic Programming Lecture 2
-    * Overview of the theory in [DP1 and DP2](https://dp.quantecon.org)
+4. Friday: Dynamic Programming: [DP1 and DP2](https://dp.quantecon.org)
+
 
 ## Prerequisites
 
