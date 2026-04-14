@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1776193681.48 "ergodicity.tex" "ergodicity.pdf" "ergodicity" 1776193683.3892 0
+["pdflatex"] 1776198813.31152 "ergodicity.tex" "ergodicity.pdf" "ergodicity" 1776198815.32908 0
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -24,6 +24,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm" 1254269338 11232 955a7245396175d9219648eadc654ac9 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm" 1254269338 11180 705632ac6b4fb69204ad970192cdf4e5 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm" 1254269338 11168 06d87f5698fd1b642d96449b7c8d90b0 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm" 1254269338 11316 701b7748a8cc1abea04b4bcc027674ae ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1229303445 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1229303445 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm" 1229303445 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
@@ -306,10 +307,10 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1749313668 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1752522887 5896481 3c202d9b2c3559bd4863a80127f1ad1e ""
   "/usr/local/texlive/2025/texmf.cnf" 1752522820.0508 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "ergodicity.aux" 1776193683.27621 4943 6b4fe6b8ef6267eaa969c6294c36703a "pdflatex"
-  "ergodicity.nav" 1776193683.27721 1946 cc1d57bc897673374b837eab8153475a "pdflatex"
-  "ergodicity.out" 1776193682.44721 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "ergodicity.tex" 1776193680.78521 9490 79bb2de148dbc7e3c9289050dc4b25e2 ""
+  "ergodicity.aux" 1776198815.21944 4943 6b4fe6b8ef6267eaa969c6294c36703a "pdflatex"
+  "ergodicity.nav" 1776198815.22044 1946 cc1d57bc897673374b837eab8153475a "pdflatex"
+  "ergodicity.out" 1776198814.35644 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ergodicity.tex" 1776198812.6136 9690 da4c318a82cb18b130d1c4578886029d ""
   "figures/chaos_intro_hists.pdf" 1776193255.62327 216891 14c3e6f1f7a33fe5ffe7351e853566c2 ""
   "figures/chaos_intro_quad_map.pdf" 1776193255.62527 125770 d2210f35b492ea50f5cf8d9b459b26a2 ""
   "figures/chaos_intro_quad_map_iter.pdf" 1776193255.62927 192652 79d0f4166a662dcd13d21710b6d25e4e ""

@@ -593,6 +593,7 @@ INPUT ./figures/chaos_intro_time_series_hist_fstar.pdf
 INPUT ./figures/chaos_intro_hists.pdf
 INPUT ./figures/chaos_intro_hists.pdf
 INPUT ./figures/chaos_intro_hists.pdf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
 OUTPUT ergodicity.nav
 OUTPUT ergodicity.toc
 OUTPUT ergodicity.snm

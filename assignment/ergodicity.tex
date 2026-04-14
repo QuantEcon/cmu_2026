@@ -222,17 +222,19 @@
 \begin{frame}
 
     In fact one can also show that, for any
-    function $h$ with $\int |h(x)| \psi^*(x) \diff x < \infty$, we have
+    bounded function $h$  we have
     %
     \begin{equation}\label{eq:berg}
-        \frac{1}{m} \sum_{t=1}^m \int h(g^t(x_0))
+        \frac{1}{m} \sum_{t=1}^m h(g^t(x_0))
         \to 
         \int h(x) \psi^*(x) \diff x 
         \qquad (m \to \infty)
     \end{equation}
     %
-    with probability one.  
+    for $\psi^*$-almost-every $x_0$
 
+    \medskip
+    \medskip
     
     The result in \eqref{eq:berg} is a version of the celebrated \navy{Birkhoff ergodic
     theorem}, proved by George David Birkhoff (1884--1944) in 1931, 
@@ -287,8 +289,7 @@
    On the left, we show the density $\psi_0$ that was used to generate the draws
    and the histogram of draws
 
-   On the right we show the histogram of $(g^t(x_0^i))_{i=1}^n$ and the density
-    $\psi^*$ 
+   On the right we show the histogram of $(g^t(x_0^i))_{i=1}^n$ and $\psi^*$ 
 
 
     The three initial densities are Beta$(2,2)$, Beta$(2,5)$, and Beta$(5,2)$
@@ -312,15 +313,21 @@
     The initial distributions are represented as histograms on the left hand side
     of the figure
 
-     It is apparent from the figure that (a) the
+    \medskip
+    It is apparent from the figure that (a) the
     forecast distributions display significantly more regularity that the initial
     conditions, and (b) the forecast cross-sectional distributions look very
     similar to the distribution generated from a single time series
 
+    \medskip
     More specifically, the simulations show that the cross-sectional histograms
     also converge to $\psi^*$ as the number of countries and forecast date
     become large
 
+
+    \medskip
+    This connection between cross-sectional averages and time series averages is
+    called \emph{ergodicity}.
 
 \end{frame}
 
@@ -345,6 +352,8 @@
         \item Use good Numba/JAX style
     \end{itemize}
 
+
+    Use markdown cells to add commentary -- explain what the figures are.
 
 \end{frame}
 
