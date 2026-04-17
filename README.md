@@ -48,6 +48,8 @@ All classes in Room 5219.
     * [Neural Network Regression with JAX](https://jax.quantecon.org/jax_nn.html)
     * [Policy Gradient-Based Optimal Savings](https://jax.quantecon.org/ifp_dl.html)
 4. Friday: Dynamic Programming: [DP1 and DP2](https://dp.quantecon.org)
+    * [Lecture 1](dp_lectures/lecture1.pdf)
+    * [Lecture 2](dp_lectures/lecture2.pdf)
 
 
 ## Prerequisites
